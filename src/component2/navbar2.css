@@ -36,3 +36,7 @@
   .title{
     margin-bottom: 0px;
   }
+
+  .back-icon{
+    cursor: pointer;
+  }

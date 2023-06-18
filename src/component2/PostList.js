@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import Card from "./card2";
 import "./PostList.css";
