@@ -5,8 +5,6 @@ import { faSearch, faPlus } from '@fortawesome/free-solid-svg-icons';
 import logoImage from './logo.png';
 
 
-
-
 function Navbar({onCreateCard}){
 
     return (

@@ -20,6 +20,7 @@ function Popup({ onClose, onConfirm }) {
   };
 
   return (
+    <div className="container">
     <div className="create-dashboard-popup">
       <div className="head">
         <h3>Add a name for your board</h3>
@@ -64,6 +65,7 @@ function Popup({ onClose, onConfirm }) {
       <button className="create-btn" type="button" onClick={handleConfirm}>
         Create board
       </button>
+    </div>
     </div>
   );
 }

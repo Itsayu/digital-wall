@@ -1,8 +1,5 @@
 .create-dashboard-popup {
-  width: 40%;
-  height: 40%;
   position: fixed;
-  margin-left: 38%;
   padding: 20px;
   width: 350px;
   height: 300px;
@@ -58,6 +55,7 @@ h3 {
   height: 40px;
   width: 100px;
 }
+
 .close-button {
   background: none;
   border: none;
@@ -68,4 +66,16 @@ h3 {
 input {
   border: 1px solid #dbdbdb;
   border-radius: 4px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }

@@ -106,7 +106,12 @@
   color: #fff;
 }
 
-
 .postListSection {
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .postListSection {
+    flex-direction: column;
+  }
 }
