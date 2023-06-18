@@ -33,6 +33,7 @@
 
   .options {
     position: relative;
+    right: 1rem;
   }
   
   .options-button {

@@ -56,12 +56,12 @@ const Card = ({ name, imageSrc, content, onDelete, onEdit, onLike }) => {
                 </div>
             </div>
             <div className='head-date'>{formattedDate}</div>
-            <img src={imageSrc} alt={name} className="card-image" />
+            <img src={imageSrc} alt={name} className="card-image2" />
             <div className="card-content2">
                 <p className="card-text2">{content}</p>
             </div>
             <div className="horizontal-line"></div>
-            <div className="card-options2">
+            <div className="like">
                 <div className="card-buttons2">
                     <button className="like-button" onClick={handleLike}>
                         <FontAwesomeIcon icon={faHeart} className={liked ? 'heart-icon active' : 'heart-icon'} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar2.css';
-import logoImage from './logo2.png';
+import logo from './logo2.png';
 import { ArrowBack, Search, Bookmark} from '@mui/icons-material';
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
             <div className="navbar-container1">
                 <div className="left1">
                     <ArrowBack className="back-icon" />
-                    <img src={logoImage} alt="Logo" className="logo" />
+                    <img src={logo} alt="Logo" className="logo" />
                     <h1 className="title">title</h1>
                 </div>
                 <div className="right1">
