@@ -14,13 +14,13 @@
 .create-post-btn {
   background-color: rgb(211, 55, 82);
   color: #fff;
-  padding: 8px 16px;
-  border-radius: 4px;
+  padding: 13px 16px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   cursor: pointer;
-  width: 150px;
-  height: 50px;
+  /* width: 150px;
+  height: 50px; */
 }
 
 .popup {
@@ -57,7 +57,7 @@
   padding: 13px 16px;
   background: #ffffff;
   border: 1px solid #dbdbdb;
-  border-radius: 4px;
+  border-radius: 5px;
   box-sizing: border-box;
   left: 35.76%;
   right: 35.97%;
@@ -100,8 +100,13 @@
 
 .submitButton button {
   background: #af273e;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 7px 18px;
   left: 75%;
   color: #fff;
+}
+
+
+.postListSection {
+  display: flex;
 }
